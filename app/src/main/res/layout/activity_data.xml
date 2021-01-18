@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="18dp" >
+
+        <LinearLayout
+            android:id="@+id/layout_atas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/FontA.Big.Bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Biodata" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="18dp"
+                android:background="@android:color/darker_gray" />
+
+        </LinearLayout>
+
+        <TableLayout
+            android:id="@+id/layout_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout_atas">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp" >
+
+                <TextView
+                    style="@style/FontA"
+                    android:text="Nama" />
+
+                <TextView
+                    style="@style/FontA"
+                    android:text=" : " />
+
+                <TextView
+                    style="@style/FontA"
+                    android:id="@+id/bd_nama"
+                    android:maxWidth="200dp"
+                    tools:text="Nama disini"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp" >
+
+                <TextView
+                    style="@style/FontA"
+                    android:text="Tempat/Tgl Lahir" />
+
+                <TextView
+                    style="@style/FontA"
+                    android:text=" : " />
+
+                <TextView
+                    style="@style/FontA"
+                    android:id="@+id/bd_ttl"
+                    android:maxWidth="200dp"
+                    tools:text="Tempat/Tgl Lahir disini"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp" >
+
+                <TextView
+                    style="@style/FontA"
+                    android:text="Jenis Kelamin" />
+
+                <TextView
+                    style="@style/FontA"
+                    android:text=" : " />
+
+                <TextView
+                    style="@style/FontA"
+                    android:id="@+id/bd_jenkel"
+                    android:maxWidth="200dp"
+                    tools:text="Jenis Kelamin disini"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp" >
+
+                <TextView
+                    style="@style/FontA"
+                    android:text="Alamat" />
+
+                <TextView
+                    style="@style/FontA"
+                    android:text=" : " />
+
+                <TextView
+                    style="@style/FontA"
+                    android:id="@+id/bd_alamat"
+                    android:maxWidth="200dp"
+                    tools:text="Alamat disini"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp" >
+
+                <TextView
+                    style="@style/FontA"
+                    android:text="Agama" />
+
+                <TextView
+                    style="@style/FontA"
+                    android:text=" : " />
+
+                <TextView
+                    style="@style/FontA"
+                    android:id="@+id/bd_agama"
+                    android:maxWidth="200dp"
+                    tools:text="Agama disini"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp" >
+
+                <TextView
+                    style="@style/FontA"
+                    android:text="Status kawin" />
+
+                <TextView
+                    style="@style/FontA"
+                    android:text=" : " />
+
+                <TextView
+                    style="@style/FontA"
+                    android:id="@+id/bd_statuskawin"
+                    android:maxWidth="200dp"
+                    tools:text="Status Kawin disini"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp" >
+
+                <TextView
+                    style="@style/FontA"
+                    android:text="Pekerjaan" />
+
+                <TextView
+                    style="@style/FontA"
+                    android:text=" : " />
+
+                <TextView
+                    style="@style/FontA"
+                    android:id="@+id/bd_pekerjaan"
+                    android:maxWidth="200dp"
+                    tools:text="Pekerjaan disini"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

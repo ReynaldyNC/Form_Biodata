@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FormBiodata</string>
+    <string name="about_desc">
+        Contoh aplikasi form biodata yang saya buat sendiri.
+        Jangan sungkan untuk memberikan feedback/komentar.
+    </string>
+</resources>
